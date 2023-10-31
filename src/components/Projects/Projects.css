@@ -1,0 +1,92 @@
+#projects{
+    margin: 0 auto;
+    min-height: calc(100vh - 25rem);
+    width: 100vw;
+    max-width: 75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+a:link, a:visited, a:active{
+    color: white;
+    font-weight: 500;
+}
+
+a:hover{
+    color: skyblue;
+}
+
+.projectsTitle{
+    margin: 1rem 0;
+    font-size: 3rem;
+}
+
+.projectsDescription{
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.projectsCards{
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+}
+
+.projectsCard{
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: rgb(50,50,50);
+}
+
+.projectsCardImg{
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin-right: 2rem;
+}
+
+.projectsCardText>p{
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.projectsCardText>h2{
+    font-weight: 500;
+}
+
+@media screen and (max-width: 450px){
+    .projectsCardText>p{
+        font-size: 3vw;
+    }
+
+    .projectsCardImg{
+        height: 2.25rem;
+        width: 2.25rem
+    }
+
+    .projectsCardText>h2{
+        font-size: 5vw;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .projectsCardText>p{
+        font-size: 2.5vw;
+    }
+
+    .projectsCardImg{
+        height: 2rem;
+        width: 2rem
+    }
+
+    .projectsCardText>h2{
+        font-size: 4.5vw;
+    }
+}
