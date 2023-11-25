@@ -6,6 +6,7 @@ import weatherAppImg from '../../assets/weatherApp.png';
 import notesAppImg from '../../assets/noteApp.png';
 import auditoriumAppImg from '../../assets/auditoriumApp.png';
 import nuMomImg from '../../assets/nuMom.png';
+import loginsignup from '../../assets/loginsignup.png';
 
 const Projects = () => {
   return (
@@ -34,7 +35,7 @@ const Projects = () => {
                 <img src={bumblebeeImg} alt = '' className='projectsCardImg'/>
                 <div className='projectsCardText'>
                 <h2><a href='https://github.com/vroja035/Bumble-Bee-Education-Discord-Bot' target='_blank' rel='noreferrer'>Bumblebee Discord Bot</a></h2>
-                    <p>Simple educational Discord Bot utilizing the Discord API. <br/> <br/>
+                    <p>Simple educational Discord Bot utilizing the Discord API. Made in collaboration with team members for ShellHacks 2022. <br/> <br/>
                       <i> Languages/Frameworks: Python, Discord API, Wikipedia API, ZenQuotes API. </i>
                       </p>
                 </div>
@@ -81,6 +82,18 @@ const Projects = () => {
                       healthcare application designed for low-income minority mothers that provides support in 3 different languages (English, Spanish & Haitian Creole). 
                       The main purpose of the application in its current state is to provide early and continued access to health care for prenatal and postnatal mothers <br/> <br/>
                       <i> Languages/Frameworks: JavaScript, React.js, Node.js, FireBase. </i>
+                      </p>
+                </div>
+            </div>
+
+            <div className='projectsCard'>
+                <img src={loginsignup} alt = '' className='projectsCardImg'/>
+                <div className='projectsCardText'>
+                <h2><a href='https://github.com/vroja035/login_signup' target='_blank' rel='noreferrer'>Login/Signup (MERN) </a></h2>
+                    <p>Simple Log In/Sign Up app made using MERN. Made with the purpose to get more familiar with JWT, Cookies, and React Redux Toolkit. 
+                      Allows users to login/signup. Stores JWT Access Token in a secure HTTPS Cookie. Persists state by sending refresh token to backend on every request.
+                      This way it avoids storing access tokens on local storage. <br/> <br/>
+                      <i> Languages/Frameworks: MongoDB, Express.js, Node.js, React.js, JWT, React Redux Toolkit </i>
                       </p>
                 </div>
             </div>

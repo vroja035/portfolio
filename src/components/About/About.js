@@ -24,7 +24,7 @@ const About = () => {
                 <img src={aboutCardImgSkills} alt = '' className='aboutCardImg'/>
                 <div className='aboutCardText'>
                     <h2>Technologies/Skills</h2>
-                    <p>React.js, Node.js, Django REST, Git, Data Structures and Algorithms, Agile Methodologies, 
+                    <p>React.js, Node.js, MongoDB, Express.js, Django REST, Git, Firebase, Data Structures and Algorithms, Agile Methodologies, 
                         SCRUM, SDLC, VS Code, Visual Studio, IntelliJ, PyCharm</p>
                 </div>
             </div>
