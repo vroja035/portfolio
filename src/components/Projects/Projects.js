@@ -21,6 +21,18 @@ const Projects = () => {
         <div className='projectsCards'>
 
             <div className='projectsCard'>
+                <img src={nuMomImg} alt = '' className='projectsCardImg'/>
+                <div className='projectsCardText'>
+                <h2><a href='https://github.com/edumorlom/nuMom' target='_blank' rel='noreferrer'>nuMom</a></h2>
+                    <p>Collaborated with fellow group members on the development of nuMom for the Fall 2023 term. NuMom is a smartphone-based maternal/infant 
+                      healthcare application designed for low-income minority mothers that provides support in 3 different languages (English, Spanish & Haitian Creole). 
+                      The main purpose of the application in its current state is to provide early and continued access to health care for prenatal and postnatal mothers <br/> <br/>
+                      <i> Languages/Frameworks: JavaScript, React.js, Node.js, FireBase. </i>
+                      </p>
+                </div>
+            </div>
+            
+            <div className='projectsCard'>
                 <img src={studentManagementImg} alt = '' className='projectsCardImg'/>
                 <div className='projectsCardText'>
                     <h2> <a href='https://github.com/vroja035/Student-Management-System' target='_blank' rel='noreferrer'>Student Management System</a></h2>
@@ -70,18 +82,6 @@ const Projects = () => {
                       the spotify player on the account of the host (requires the host to have a spotify premium account). Utilized Django
                       for the backend and React for the frontend.<br/> <br/>
                       <i> Languages/Frameworks: Python, Django REST Framework, JavaScript, React.js, Node.js, SpotifyAPI, MUI/Materials. </i>
-                      </p>
-                </div>
-            </div>
-
-            <div className='projectsCard'>
-                <img src={nuMomImg} alt = '' className='projectsCardImg'/>
-                <div className='projectsCardText'>
-                <h2><a href='https://github.com/edumorlom/nuMom' target='_blank' rel='noreferrer'>nuMom</a></h2>
-                    <p>Collaborated with fellow group members on the development of nuMom for the Fall 2023 term. NuMom is a smartphone-based maternal/infant 
-                      healthcare application designed for low-income minority mothers that provides support in 3 different languages (English, Spanish & Haitian Creole). 
-                      The main purpose of the application in its current state is to provide early and continued access to health care for prenatal and postnatal mothers <br/> <br/>
-                      <i> Languages/Frameworks: JavaScript, React.js, Node.js, FireBase. </i>
                       </p>
                 </div>
             </div>
