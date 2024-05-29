@@ -7,6 +7,7 @@ import notesAppImg from '../../assets/noteApp.png';
 import auditoriumAppImg from '../../assets/auditoriumApp.png';
 import nuMomImg from '../../assets/nuMom.png';
 import loginsignup from '../../assets/loginsignup.png';
+import vulkanLogoImg from '../../assets/vulkan-logo.png';
 
 const Projects = () => {
   return (
@@ -19,6 +20,16 @@ const Projects = () => {
         </span>
 
         <div className='projectsCards'>
+            
+            <div className='projectsCard'>
+                <img src={vulkanLogoImg} alt = '' className='projectsCardImg'/>
+                <div className='projectsCardText'>
+                <h2><a href='https://github.com/vroja035/tinyvulkan' target='_blank' rel='noreferrer'>TinyVulkan</a></h2>
+                    <p>My introduction to graphics rendering with Vulkan. <br/> <br/>
+                      <i> Languages/Frameworks: C++, Vulkan, GLFW, GLM. </i>
+                      </p>
+                </div>
+            </div>
 
             <div className='projectsCard'>
                 <img src={nuMomImg} alt = '' className='projectsCardImg'/>
